@@ -4,30 +4,42 @@
 <head>
     <style>
         body{
-            background-image: url("Laos.JPG");
+            background-image: url("wallpaper3.png");
             background-size: cover;
             background-attachment: fixed;
         }
-        p{
-            font-size: 25px;
-            color: black;
-
+        .texten{
+            position: absolute;
+            font-size: 35px;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+            right: 84%;
+            top: 215px;
         }
         .portrait
         {
             position: relative;
-            top: 0;
-            left: 0;
-            border-radius: 25% 25% 25% 25%;
+            border-radius: 5% 25% 5% 25%;
         }
         .button {
             position: relative;
             border-radius: 15% 15% 15% 15%;
             left: 1%;
         }
-        .name {
+        .excel_logo {
             position: relative;
-            vertical-align: text-bottom;
+            border-radius: 15% 15% 15% 15%;
+            right: 250px;
+            top: 240px;
+        }
+        .excel_text{
+            position: relative;
+            right: 120px;
+            top: 130px;
+            font-size: 25px;
+            font-family: Calibri;
+            color: lavenderblush;
+            text-shadow: 2px 2px 4px #000000;
         }
     </style>
     <title>ArreBarre</title>
@@ -35,14 +47,23 @@
 <body>
 
 <div style="position: relative; left: 0; top: 0;">
-    <img align="left" src="portrait.jpg" width="250" height="250" class="portrait"/>
+    <img align="left" src="pic1.png" width="250" height="250" class="portrait"/>
+    <p style="font-family: Calibri;" class="texten"> <b>Arvid Landmark</b> </p>
 </div>
-<p class="name"> <b>Arvid Landmark</b> </p>
 
 <a href="https://www.linkedin.com/in/arvidlandmark"><div>
     <img src="linkedin.png" width="72" height="72" class="button" alt=""></div> </a>
 <a href="https://github.com/ArvidLandmark"><div>
     <img src="GitHub.png" width="72" height="72" class="button" alt=""></div> </a>
+
+<div class="excel_text">
+    <p class="excel_text"><b>Budget</b></p>
+</div>
+<a href="Budget.xlsm" download>
+    <div>
+        <img src="excel_logo.png" width="72" height="72" class="excel_logo" alt="">
+    </div>
+</a>
 
 </body>
 
