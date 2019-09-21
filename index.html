@@ -8,12 +8,16 @@
             background-size: cover;
             background-attachment: fixed;
         }
+        div.content{
+            width: 1000px;
+            height: 730px;
+        }
         .texten{
             position: absolute;
             font-size: 35px;
             color: white;
             text-shadow: 2px 2px 4px #000000;
-            right: 84%;
+            right: 76%;
             top: 215px;
         }
         .portrait
@@ -29,42 +33,94 @@
         .excel_logo {
             position: relative;
             border-radius: 15% 15% 15% 15%;
-            right: 250px;
-            top: 240px;
+            right: 150px;
+            top: 160px;
         }
         .excel_text{
             position: relative;
-            right: 120px;
-            top: 130px;
+            right: 73px;
+            top: 90px;
+            font-size: 25px;
+            font-family: Calibri;
+            color: lavenderblush;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        .pull_data_logo{
+            position: relative;
+            left: 305px;
+            top: 4px;
+        }
+        .pull_data_text{
+            position: relative;
+            left: 300px;
+            top: 26px;
+            font-size: 25px;
+            font-family: Calibri;
+            color: lavenderblush;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        .python_logo{
+            position: relative;
+            left: 100px;
+            top: 50px;
+        }
+        .python_text{
+            position: relative;
+            left: 80px;
+            top: 70px;
             font-size: 25px;
             font-family: Calibri;
             color: lavenderblush;
             text-shadow: 2px 2px 4px #000000;
         }
     </style>
-    <title>ArreBarre</title>
+    <title>ArvidLandmark</title>
 
 <body>
-
+<div class="content">
 <div style="position: relative; left: 0; top: 0;">
     <img align="left" src="pic1.png" width="250" height="250" class="portrait"/>
     <p style="font-family: Calibri;" class="texten"> <b>Arvid Landmark</b> </p>
+    <p style="font-family: Calibri;" class="texten"> <b>Arvid Landmark</b> </p>
 </div>
 
+<div>
 <a href="https://www.linkedin.com/in/arvidlandmark"><div>
     <img src="linkedin.png" width="72" height="72" class="button" alt=""></div> </a>
 <a href="https://github.com/ArvidLandmark"><div>
     <img src="GitHub.png" width="72" height="72" class="button" alt=""></div> </a>
+</div>
 
 <div class="excel_text">
     <p class="excel_text"><b>Budget</b></p>
 </div>
-<a href="Budget.xlsm" download>
+<a href="Budget_files.zip" download>
     <div>
         <img src="excel_logo.png" width="72" height="72" class="excel_logo" alt="">
     </div>
 </a>
 
+<div class="pull_data_text">
+    <p><b>Financials scraper</b></p>
+</div>
+<a href="ScrapeFinancialData.zip" download>
+    <div>
+        <img src="excel_logo.png" width="72" height="72" class="pull_data_logo" alt="">
+    </div>
+</a>
+
+    <div class="python_text">
+        <p><b>Beta Calculator</b></p>
+    </div>
+    <a href="Beta_calculator.zip" download>
+        <div>
+            <img src="python.png" width="72" height="72" class="python_logo" alt="">
+        </div>
+    </a>
+
+
+
+</div>
 </body>
 
 
